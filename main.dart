@@ -1,10 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_atividades/alertDialog.dart';
 import 'package:flutter_atividades/atv1.dart';
 import 'package:flutter_atividades/atv2.dart';
 import 'package:flutter_atividades/atv3.dart';
 import 'package:flutter_atividades/atv4.dart';
 import 'package:flutter_atividades/atv5.dart';
 import 'package:flutter_atividades/atv6.dart';
+import 'package:flutter_atividades/form.dart';
+import 'package:flutter_atividades/formUpdate.dart';
+import 'package:flutter_atividades/navigator.dart';
+import 'package:flutter_atividades/navigator2.dart';
+import 'package:flutter_atividades/table.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +28,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Atv6() //Mude o numero da atividade para poder rodar a classe com a respectiva atividade
+      home: AlertDialogExemplo() //Mude o numero da atividade para poder rodar a classe com a respectiva atividade
     );
   }
 }
